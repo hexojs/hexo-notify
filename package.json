@@ -22,7 +22,7 @@
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "license": "MIT",
   "dependencies": {
-    "node-notifier": "^4.0.3",
+    "node-notifier": "^5.4.0",
     "strip-ansi": "^5.0.0"
   },
   "devDependencies": {
