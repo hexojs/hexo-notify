@@ -1,3 +1,6 @@
+/* global hexo */
+'use strict';
+
 var NotifyStream = require('./lib/stream');
 
 hexo.log.addStream({
