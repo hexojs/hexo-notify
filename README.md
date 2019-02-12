@@ -1,6 +1,8 @@
 # hexo-notify
 
-Notification plugin for Hexo.
+This hexo plugin send desktop notification.
+
+It relies on https://github.com/mikaelbr/node-notifier that is able to send OS notifications that are nicely displayed on Windows & Mac.
 
 ## Installation
 
