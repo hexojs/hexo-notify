@@ -10,4 +10,5 @@ script:
   - npm run test-cov
 
 after_script:
+  - npm install coveralls
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
