@@ -2,7 +2,7 @@
   "name": "hexo-notify",
   "version": "0.0.1",
   "description": "Notification plugin for Hexo",
-  "main": "index",
+  "main": "index.js",
   "scripts": {
     "test": "mocha test/index.js",
     "test-cov": "nyc npm run test",
@@ -11,6 +11,10 @@
   "directories": {
     "lib": "./lib"
   },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "engines": {
     "node": ">= 8.6.0"
   },
